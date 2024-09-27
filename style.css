@@ -1,0 +1,113 @@
+.container{
+    width:80%;
+    max-width:1200px;
+    margin:auto;
+    padding:20px;
+    background-color: rgb(236, 236, 117);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius:10px;
+}
+h1,h2{
+    text-align:center;
+    color: #444;
+    margin-bottom:20px;
+}
+.form-section{
+    background-color: #e9f5ff;
+    padding:20px;
+    border-radius:10px;
+    border:1px solid #e9f5ff
+
+    
+}
+form{
+    display:block;
+    margin-top:0em;
+    unicode-bidi:isolate;
+}
+.list-section{
+    background-color: #f9f9f9;
+    padding:20px;
+    border-radius:10px;
+    border:1px solid #add;
+}
+
+.table-section{
+    background-color: #fff;
+    padding:20px;
+    border-radius:10px;
+    border:1px solid #add
+}
+.form-group{
+    margin-bottom: 15px;
+}
+label{
+   display: block;
+   font-weight: bod;
+   margin-bottom: 5px;
+}
+input{
+    width:100%;
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius: 6px;
+    box-sizing:border-box;
+}
+#employeeList{
+    margin-top: 10px;
+}
+thead{
+    display: table-header-group;
+    vertical-align: middle;
+    unicode-bidi:isolate;
+    border-color: inherit;
+}
+td img{
+    border-radius: 10%;
+    height: 100px;
+    width: 140px;
+}
+th,td{
+    padding:10px;
+    text-align: left;
+    border-bottom: 1px solid #add;
+}
+tbody{
+    display: table-row-group;
+    vertical-align: middle;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}
+table{
+    width: 100%;
+    display: table;
+    border-collapse: collapse;
+    box-sizing: border-box;
+    text-indent: initial;
+    unicode-bidi: isolate;
+    border-spacing: 2px;
+    border-color: gray;
+}
+.map-section{
+    width: 50px;
+}
+td{
+    display: table-cell;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+}
+th{
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: center;
+    unicode-bidi: isolate;
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(177, 177, 233);
+}
+section{
+    margin-bottom: 40px;
+}
